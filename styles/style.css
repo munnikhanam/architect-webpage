@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* common-styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  font-family: "Work Sans", sans-serif;
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+}
+h3 {
+  color: rgb(19, 19, 19);
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 53px;
+  letter-spacing: 0%;
+}
+p {
+  font-family: "Work Sans", sans-serif;
+  color: rgb(114, 114, 114);
+  font-family: Work Sans;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 20px 0;
+}
+.display-flex {
+  display: flex;
+}
+.color-primary {
+  color: #131313;
+}
+.color-secondary {
+  color: #727272;
+}
+.btn {
+  border-radius: 8px;
+  padding: 20px 25px;
+  background: rgb(255, 144, 14);
+  border: none;
+  color: #ffff;
+  margin: 30px 0;
+}
+.bg-light {
+  background: rgba(255, 144, 14, 0.1);
+  /* banner-part */
+}
+#header-part,
+#team-part,
+#some-fact-part,
+#sponsor-part,
+.footer-part,
+#feature-part {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 50px 50px;
+}
+nav {
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo a {
+  font-family: "Work Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 53px;
+}
+nav li a {
+  font-family: "Work Sans", sans-serif;
+  color: #424242;
+  margin-right: 20px;
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.banner-tittle {
+  max-width: 860px;
+  margin: 50px auto;
+  text-align: center;
+}
+.banner-tittle h2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 75px;
+}
+.banner-tittle a {
+  font-family: "Work Sans", sans-serif;
+  color: #ffff;
+}
+
+.banner-img img {
+  width: 100%;
+}
+/* team-part */
+.team-content {
+  justify-content: space-between;
+}
+.team-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.team-details {
+  max-width: 530px;
+  margin-top: 150px;
+}
+.team-details h3 {
+  font-family: Work Sans;
+  font-size: 3.15rem;
+  font-weight: 700;
+  line-height: 53px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.team-heading {
+  color: #ff900e;
+}
+/* feature-part */
+.feature-content {
+  justify-content: space-between;
+  align-items: center;
+}
+.feature-details {
+  max-width: 580px;
+}
+.featre-tittle {
+}
+.featre-heading {
+  position: relative;
+  margin-left: 15px;
+}
+.featre-heading::after {
+  content: "";
+  background: #ff900e;
+  width: 5px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: -15px;
+}
+.feature-card {
+  border-radius: 8px;
+  padding: 25px 10px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+}
+.feature-card h5 {
+  color: rgb(19, 19, 19);
+  font-family: Work Sans;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 23px;
+}
+.feature-img img {
+  width: 100%;
+}
+.feature-img {
+  position: relative;
+}
+.feature-btn {
+  padding: 25px;
+  border-radius: 8px;
+  color: #ffff;
+  background: rgb(255, 144, 14);
+  font-family: Work Sans;
+  border: none;
+  position: absolute;
+  bottom: -58px;
+  left: -70px;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+/* facts-part */
+.facts-tittle {
+  max-width: 578px;
+}
+.fact-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+.fact-card {
+  border: 1px solid #ff900e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 6px;
+}
+.fact-card h4 {
+  color: rgb(66, 66, 66);
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 53px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+/* sponsor-part-style */
+.sponsor-tittle {
+  max-width: 542px;
+  margin: 0 auto;
+  text-align: center;
+}
+.sponsor-companies {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 100px;
+  align-items: center;
+}
+.sponsor-companies img {
+  filter: grayscale(100%);
+  width: 100%;
+}
+.footer-part {
+  text-align: center;
+  border-radius: 8px;
+}
