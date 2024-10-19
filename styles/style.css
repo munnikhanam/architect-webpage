@@ -121,6 +121,9 @@ nav li a {
   letter-spacing: 0%;
   text-align: left;
 }
+.team-details a {
+  color: #ffff;
+}
 .team-heading {
   color: #ff900e;
 }
@@ -244,6 +247,8 @@ nav li a {
     padding: 5px;
     bottom: -18px;
     left: -10px;
+    font-size: 2rem;
+    max-width: 250px;
   }
   .fact-cards {
     grid-template-columns: 1fr;
