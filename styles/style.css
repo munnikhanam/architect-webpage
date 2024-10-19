@@ -103,6 +103,7 @@ nav li a {
 /* team-part */
 .team-content {
   justify-content: space-between;
+  gap: 30px;
 }
 .team-image {
   display: grid;
@@ -170,8 +171,8 @@ nav li a {
   position: relative;
 }
 .feature-btn {
-  padding: 25px;
-  max-width: 342px;
+  padding: 20px;
+  max-width: 300px;
   border-radius: 8px;
   color: #ffff;
   background: rgb(255, 144, 14);
@@ -179,8 +180,8 @@ nav li a {
   border: none;
   position: absolute;
   bottom: -58px;
-  left: -70px;
-  font-size: 3.5rem;
+  left: -10px;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 /* facts-part */
